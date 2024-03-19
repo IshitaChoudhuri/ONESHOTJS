@@ -102,3 +102,49 @@
         return(console.log("The CGPA is ",marks/9.5));
     }
     c2 = cgpa(86);
+
+    //Conditional Statements
+    function vote(age)
+        {
+            if (age>18) {
+        console.log("You're eligible for voting");
+        } else {
+        console.log("You're not eligible for voting");
+    }
+    }
+    vote(99)
+    age=18;
+    switch(age){
+        case 18:
+            console.log("You're 18");
+            break;
+        case 28:
+            console.log("You're 28");
+            break;
+        case 38:
+            console.log("You're 38");
+            break;
+        default:
+            console.log("You're unknown age");
+            break;
+    }
+
+    //Loops in JavaScript
+
+    //For loop
+    var arr = [1, 2, 3, 4, 5, 6];
+    for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+
+    //For each loop
+    arr.forEach(function(item){
+        console.log(item*item);
+    })
+
+    //While loop
+    let j = 0;
+    while (j<5) {
+        console.log(j);
+        j++;
+    }
