@@ -38,3 +38,17 @@
     var a = true;
     var b = false;
     console.log(a, b);
+
+    var und;
+    console.log(und);
+
+    var n=null;
+    console.log(n);
+
+    //Arrays
+    var arr = [1, 2, "string", 4, 5];
+    console.log(arr);
+
+    //Datatypes
+    /*Primitive Data Types- Number, String, Boolean, Undefined, Null, (Symbol)
+    Reference Data Types- Arrays, Objects*/
