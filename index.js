@@ -68,3 +68,32 @@
     console.log(c);
     c+=b;
     console.log(c);
+
+    //Comparison Operators
+    var x = 34;
+    var y = 56;
+    console.log(x==y);
+    console.log(x>=y);
+    console.log(x<=y);
+    console.log(x!=y);
+
+    //Logical Operators
+    //Logical and
+    console.log(true && true);
+    console.log(false && false);
+    console.log(true && false);
+
+    //Logical or
+    console.log(true || true);
+    console.log(false || false);
+    console.log(true || false);
+
+    //Logical not
+    console.log(!true);
+    console.log(!false);
+
+    //Functions in JavaScript
+    function avg(a, b){
+        return(console.log("The average of",a,"and",b,"is ",(a+b)/2));
+    }
+    c1 = avg(4, 6);
