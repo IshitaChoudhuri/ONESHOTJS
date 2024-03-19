@@ -30,7 +30,7 @@
     var marks = {
         ravi: 34,
         shubham: 78,
-        harry: 99.977
+        ishita: 99.977
     }
     console.log(marks);
 
@@ -132,7 +132,7 @@
     //Loops in JavaScript
 
     //For loop
-    var arr = [1, 2, 3, 4, 5, 6];
+    var arr = [1, 2, 3, 4, 5, 6]; //scope of var is in the function it is declared in
     for (var i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
@@ -143,8 +143,77 @@
     })
 
     //While loop
-    let j = 0;
+    let j = 0; //scope of let is within the block it is declared in
     while (j<5) {
         console.log(j);
         j++;
     }
+
+    //Do while loop
+    let k = 0; 
+    do {
+        console.log(k*5);
+        k++;
+    } while (k<5);  
+
+    //Constant
+    // var a=10;
+    // const ac=0;
+    // ac++;
+
+    //break and continue
+    let l = 0;
+    do {
+        if (l===5) {
+            break;
+        }
+        console.log(l);
+        l++;
+    } while (l<10);
+
+    let m = 0;
+    do {
+        if (m===5) {
+            m++;
+            continue;
+        }
+        console.log(m*7);
+        m++;
+    } while (m<10);
+
+    //Array methods
+    let myArr = ["Fan", "Camera", 34, null, true, 6.7];
+    console.log(myArr.length);
+    // myArr.pop();
+    myArr.push("Ishita");
+    myArr.shift();
+    const newLen = myArr.unshift("Ishita");
+    console.log(newLen);
+    console.log(myArr);
+
+    //sort method
+    // let arr1 = [1, 244, 35, 411, 5, 65];
+    // arr2=arr1.sort();
+    // console.log(arr2);
+    
+    //String methods
+    let myString = "Ishita is a good good girl";
+    console.log(myString.length);
+    console.log(myString.indexOf("good"));
+    console.log(myString.lastIndexOf("good"));
+    console.log(myString.slice(0, 6));
+    d = myString.replace("Ishita", "Munu");
+    console.log(d, myString);
+
+    //Date methods
+    myDate= new Date();
+    console.log(myDate.getTime());
+    console.log(myDate.getFullYear());
+    console.log(myDate.getDay());
+    console.log(myDate.getMinutes());
+    console.log(myDate.getHours());
+    console.log(myDate.getSeconds());
+
+
+    
+    
