@@ -21,3 +21,20 @@
     var num3 = 0xFF;
     console.log("Number :" + num1 + " " + num2 + " " + num3);
     
+    // Strings
+    var str1 = "This is a string";
+    var str2 = 'This is also a string';
+    console.log("String :" + str1 + " " + str2);
+
+    // Objects
+    var marks = {
+        ravi: 34,
+        shubham: 78,
+        harry: 99.977
+    }
+    console.log(marks);
+
+    // Booleans
+    var a = true;
+    var b = false;
+    console.log(a, b);
