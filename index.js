@@ -97,3 +97,8 @@
         return(console.log("The average of",a,"and",b,"is ",(a+b)/2));
     }
     c1 = avg(4, 6);
+
+    function cgpa(marks){
+        return(console.log("The CGPA is ",marks/9.5));
+    }
+    c2 = cgpa(86);
