@@ -14,13 +14,12 @@ JavaScript powers the modern web, enabling dynamic and interactive experiences f
 4. Working with APIs: Explore how to fetch data from external APIs and integrate them into my applications.
 5. Modern JavaScript features: Embrace ES6+ syntax and features like arrow functions, classes, and modules.
 6. Testing and debugging: Learn best practices for testing my code and debugging errors efficiently.
-7. Build projects: Apply my knowledge by building real-world projects, starting from simple ones and gradually increasing complexity.
+7. Build projects: Apply my knowledge by building real-world projects, such as a Javascript clock and a To-Do List.
 8. Continuous learning: Stay updated with the latest trends, libraries, and frameworks in the JavaScript ecosystem.
 
 ## Resources
 
 - Online courses: Enroll in reputable online courses such as those offered on Udemy, Coursera, or freeCodeCamp.
-- Books: Read recommended JavaScript books like "Eloquent JavaScript" by Marijn Haverbeke.
 - Documentation: Refer to the official documentation on Mozilla Developer Network (MDN) for detailed explanations and examples.
 - Community: Engage with the JavaScript community on platforms like Stack Overflow, Reddit, and GitHub.
 - Practice platforms: Utilize coding practice websites like LeetCode and Codecademy to reinforce my learning through exercises and challenges.
