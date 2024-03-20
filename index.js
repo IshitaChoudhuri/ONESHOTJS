@@ -291,13 +291,16 @@
     // localStorage.clear()
 
     //JSON
-    obj = {name: "ishita", length: 1, a: {this: 'that'}};
-    jso = JSON.stringify(obj); //converts object to string
-    console.log(obj);
+    // obj = {name: "ishita", length: 1, a: {this: 'that'}};
+    // jso = JSON.stringify(obj); //converts object to string
+    // console.log(obj);
 
-    parsed = JSON.parse(`{
-        "name": "ishita","length": 1,"a": {"this": "that"}}`); //converts string to object
-    console.log(parsed);
+    // parsed = JSON.parse(`{
+    //     "name": "ishita","length": 1,"a": {"this": "that"}}`); //converts string to object
+    // console.log(parsed);
+
+    
+
 
 
     
